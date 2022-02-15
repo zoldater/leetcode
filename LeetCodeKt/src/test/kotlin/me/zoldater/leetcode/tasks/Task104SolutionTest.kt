@@ -16,7 +16,7 @@ internal class Task104SolutionTest {
                 right = TreeNode(value = 7)
             )
         )
-        assertEquals(3, Solution().maxDepth(root))
+        assertEquals(3, maxDepth(root))
     }
 
     @Test
@@ -25,6 +25,6 @@ internal class Task104SolutionTest {
             value = 1,
             right = TreeNode(value = 2)
         )
-        assertEquals(2, Solution().maxDepth(root))
+        assertEquals(2, maxDepth(root))
     }
 }
